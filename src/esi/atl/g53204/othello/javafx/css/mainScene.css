@@ -1,0 +1,53 @@
+.root{
+    -fx-background-image: url("star.gif");
+    -fx-background-size: 1000px 750px;
+    -fx-max-width:100%;
+}
+
+.progress-bar { -fx-accent:black; }
+
+.scoreFont {
+    -fx-font-family: Impact;
+    -fx-font-size: 12pt;
+    -fx-text-fill: skyblue ;
+}
+.colorBlack {
+    -fx-font-family: Impact;
+    -fx-font-size: 12pt;
+    -fx-text-fill: black ;
+}
+.colorWhite {
+    -fx-font-family: Impact;
+    -fx-font-size: 12pt;
+    -fx-text-fill: white ;
+}
+.pointsFont {
+    -fx-font-family: Impact;
+    -fx-font-size: 14pt;
+    -fx-text-fill: magenta ;
+}
+.btn{
+
+    -fx-background-color:skyblue;
+
+    -fx-background-radius: 20px, 0px;
+
+    -fx-font-family: Impact;
+    -fx-font-size: 12pt;
+}
+.btn:hover{
+    -fx-border-color:black;
+    -fx-background-color:magenta;
+    -fx-background-insets: 0, 6;
+    -fx-background-radius: 6px, 0px;
+    -fx-font-family: Impact;
+    -fx-font-size: 14pt;
+}
+#currentPlayer{
+    -fx-font-size: 18pt;
+    -fx-font-family: Impact;
+    -fx-text-fill: magenta  ;
+
+}
+
+

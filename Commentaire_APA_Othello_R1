@@ -1,0 +1,16 @@
+Commentaire APA Othello R1
+
+Il y a encore des bugs dans le placement des pions. Des fois il place plusieurs pions en un coup. Comme si il gardait en mémoire les mauvais coups que je faisais puis les plaçait tous une fois un bon coup joué.
+
+Le jeu crash si on place une piece en dehors du plateau.
+Pourquoi avoir numéroté avec des lettres alors qu'on doit entrer des chiffres ?
+
+Game.java : listMoves, donne la direction ou fait un for each sur toutes les directions.
+
+Game.java : Le but des directions est d'éviter toutes les méthodes up, left, right, swap NE, swap SO, ...
+
+N'hésite pas a créer tes propres exceptions si tu en as besoin.
+
+Il faut un peu remettre de l'ordre et régler certains bugs, sinon de manière générale c'est bien.
+
+Quelques méthodes dans game doivent être testée (countWhite, getWinner)
